@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "main.py", line 3, in <module>
+    import torch
+  File "/home/pangshiguan/anaconda3/lib/python3.7/site-packages/torch/__init__.py", line 44, in <module>
+    import numpy as _np  # noqa: F401
+  File "/home/pangshiguan/anaconda3/lib/python3.7/site-packages/numpy/__init__.py", line 145, in <module>
+    from . import lib
+  File "/home/pangshiguan/anaconda3/lib/python3.7/site-packages/numpy/lib/__init__.py", line 9, in <module>
+    from .index_tricks import *
+  File "/home/pangshiguan/anaconda3/lib/python3.7/site-packages/numpy/lib/index_tricks.py", line 13, in <module>
+    import numpy.matrixlib as matrixlib
+  File "/home/pangshiguan/anaconda3/lib/python3.7/site-packages/numpy/matrixlib/__init__.py", line 6, in <module>
+    from .defmatrix import *
+  File "/home/pangshiguan/anaconda3/lib/python3.7/site-packages/numpy/matrixlib/defmatrix.py", line 13, in <module>
+    from numpy.linalg import matrix_power
+  File "/home/pangshiguan/anaconda3/lib/python3.7/site-packages/numpy/linalg/__init__.py", line 51, in <module>
+    from .linalg import *
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 857, in get_code
+  File "<frozen importlib._bootstrap_external>", line 525, in _compile_bytecode
+KeyboardInterrupt

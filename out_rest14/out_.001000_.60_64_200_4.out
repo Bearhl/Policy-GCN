@@ -1,0 +1,30 @@
+Exception ignored in: <module 'collections.abc' from '/home/pangshiguan/anaconda3/lib/python3.7/collections/abc.py'>
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+KeyboardInterrupt
+/home/pangshiguan/anaconda3/lib/python3.7/importlib/_bootstrap.py:219: RuntimeWarning: Cython module failed to patch module with custom type
+  return f(*args, **kwds)
+Traceback (most recent call last):
+  File "main.py", line 10, in <module>
+    from graph_model import Policy_GCN
+  File "/home/pangshiguan/poliy_GCN_final/graph_model.py", line 6, in <module>
+    from sklearn import metrics
+  File "/home/pangshiguan/anaconda3/lib/python3.7/site-packages/sklearn/__init__.py", line 82, in <module>
+    from .base import clone
+  File "/home/pangshiguan/anaconda3/lib/python3.7/site-packages/sklearn/base.py", line 20, in <module>
+    from .utils import _IS_32BIT
+  File "/home/pangshiguan/anaconda3/lib/python3.7/site-packages/sklearn/utils/__init__.py", line 24, in <module>
+    from . import _joblib
+  File "/home/pangshiguan/anaconda3/lib/python3.7/site-packages/sklearn/utils/_joblib.py", line 7, in <module>
+    import joblib
+  File "/home/pangshiguan/anaconda3/lib/python3.7/site-packages/joblib/__init__.py", line 113, in <module>
+    from .memory import Memory, MemorizedResult, register_store_backend
+  File "/home/pangshiguan/anaconda3/lib/python3.7/site-packages/joblib/memory.py", line 15, in <module>
+    import pydoc
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 857, in get_code
+  File "<frozen importlib._bootstrap_external>", line 525, in _compile_bytecode
+KeyboardInterrupt
